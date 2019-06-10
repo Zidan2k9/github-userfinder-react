@@ -1,11 +1,12 @@
 import React, { Component } from "react";
+import Navbar from "./components/layout/Navbar";
 import "./App.css";
 
 class App extends Component {
-  render(h) {
+  render() {
     return (
       <div className="App">
-        <h1>Hello From React</h1>
+        <Navbar title="GitHub User Finder" icon="fab fa-github" />
       </div>
     );
   }
